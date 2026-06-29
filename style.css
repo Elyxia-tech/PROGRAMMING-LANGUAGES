@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(83, 71, 110);
+    color: white;
+    font-family: Arial, sans-serif;
+    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+nav a {
+    color: rgb(184, 174, 189);
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+CONTENTROW {
+    display: flex;
+    gap: 100px;
+}   
+content1 p,
+content2 p,
+content3 p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.IMAGES {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CSS {
+    margin-left: 100px;
+}
+
+.H3 {
+    margin-left: 100px;
+}
